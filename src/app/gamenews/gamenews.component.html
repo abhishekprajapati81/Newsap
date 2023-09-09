@@ -1,0 +1,13 @@
+<div class="container-fluid mt-4">
+    <h3>Top stock market news</h3>
+<div class="row">
+<div *ngFor="let d of sport" class="col-lg-3 mb-3 mt-3 ">
+<div class="box">
+<img src="{{d.urlToImage}}" alt="" width="100%">
+<h5 class="mt-2 mb-2"> {{d.title}}</h5> 
+            <!-- <p>{{d.description}}</p> -->
+ <a href="{{d.url}}" target="_blank" class="btn btn-primary btn-sm mt-2">read more</a>
+</div>
+</div>
+</div>
+</div> 
